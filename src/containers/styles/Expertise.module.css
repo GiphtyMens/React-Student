@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.expertise {
+  min-height: 90vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 4rem 0 0 0;
+  color: white;
+}
+
+.expertise_top > p {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.expertise_top > h1 {
+  font-size: 60px;
+  font-family: "Lato", sans-serif;
+  color: rgb(5, 5, 55);
+  margin: 0 0 5rem 0;
+  color: white;
+}
+
+.expertise > h3 {
+  text-align: left;
+  margin: 0 0 1rem 5rem;
+  font-size: 25px;
+  color: white;
+}
+
+.mycard_container {
+  min-height: 70vh;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mycard {
+  height: 20vh;
+  width: 28vw;
+  border: 0.1px solid rgb(79, 76, 76);
+  margin-bottom: 2rem;
+  padding: 20px;
+  text-align: left;
+  /* color: rgb(249, 249, 88)); */
+}
+.mycard_list {
+  width: 11vw;
+}
+.mycard_list,
+.mycard_acc {
+  /* border: 1px solid white; */
+  /* height: 4rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mycard_acc {
+  width: 15rem;
+  /* color: rgb(54, 54, 54); */
+}
+
+.mycard_icon {
+}
+
+.mycard_list > h3 {
+  /* color: rgb(5, 5, 55); */
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.mycard > p {
+  color: rgb(227, 227, 227);
+  /* font-style: italic; */
+  font-family: "Lato", sans-serif; 
+}
