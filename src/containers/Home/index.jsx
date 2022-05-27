@@ -3,7 +3,7 @@ import HomeNav from "./components/HomeNav";
 import Header from "./components/Header";
 import Expertise from "./components/Expertise";
 import Testimonial from "./components/Testimonial";
-import Project from "./components/Project";
+import Project from "./components/project/Project";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
       <HomeNav />
       <Header />
       <Expertise />
-      <Project />
+      {/* <Project /> */}
       <Testimonial />
     </div>
   );

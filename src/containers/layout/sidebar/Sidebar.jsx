@@ -27,6 +27,7 @@ const Sidebar = () => {
           <br />
           <Link to="/main/welcome"><span>Welcome</span><FaCode /></Link>
           <Link to="/main/card"><span>Card</span><FaAddressCard/></Link>
+          <Link to="/main/map"><span>Map</span><FaAddressCard/></Link>
           <Link to="/main/form"><span>Form</span><FaWpforms/></Link>
           <Link to="/main/todoapp"><span>ToDo App</span><FaClipboardList/></Link>
           <Link to="/main/auth"><span>Authentication</span><FaUserCog/></Link>

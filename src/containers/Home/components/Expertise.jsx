@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../styles/Expertise.module.css";
-import { SiJavascript, SiMongodb } from "react-icons/si";
+// import { SiJavascript, SiMongodb } from "react-icons/si";
 // import { FaReact, FaNodeJs } from "react-icons/fa";
 import { stacks, accounting } from "../../data/Data";
 

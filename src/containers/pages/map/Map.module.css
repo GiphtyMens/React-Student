@@ -1,0 +1,83 @@
+.map_container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.map_container > a {
+  text-decoration: none;
+  color: black;
+}
+
+.map_card {
+  height: 65vh;
+  width: 28vw;
+  /* border: 1px solid black; */
+  padding: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.312);
+  margin-bottom: 20px;
+}
+
+.map_card > img {
+  width: 100%;
+  height: 45vh;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+}
+
+.map_card > h3 {
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.map_card > p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.map_card > button {
+  width: 8rem;
+  height: 2.6rem;
+  background: brown;
+  color: white;
+  border: none;
+}
+
+.mapdetail {
+  height: 120vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.mapdetail > img {
+  width: 60vw;
+  height: 70vh;
+  margin: 0 auto;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.419);
+}
+
+.mapdetail > h1 {
+  font-size: 38px;
+}
+
+.mapdetail > p {
+  width: 60vw;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.mapdetail > a > button {
+  width: 10rem;
+  height: 2.8rem;
+  border: none;
+  background: blue;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}

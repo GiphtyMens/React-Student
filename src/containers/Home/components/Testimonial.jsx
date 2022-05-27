@@ -10,7 +10,7 @@ const Testimonial = () => {
       </div>
       <div className={styles.card}>
         <div className={styles.card_list}>
-          <h1></h1>
+          <div></div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
             perspiciatis ad commodi eveniet reiciendis odio voluptas quia,
@@ -20,7 +20,7 @@ const Testimonial = () => {
           <h4>Bomark Royal Ltd</h4>
         </div>
         <div className={styles.card_list}>
-          <h1></h1>
+         <div></div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
             perspiciatis ad commodi eveniet reiciendis odio voluptas quia,
@@ -30,7 +30,7 @@ const Testimonial = () => {
           <h4>Bomark Royal Ltd</h4>
         </div>
         <div className={styles.card_list}>
-          <h1></h1>
+          <div></div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
             perspiciatis ad commodi eveniet reiciendis odio voluptas quia,
